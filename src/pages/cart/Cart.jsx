@@ -1,9 +1,9 @@
 import './cart.css';
 import Productdata from '../../assets/jsondata/Productdata.json';
 
-function Cart() {
+function Cart() {       
 
-    const handlecash=()=> {
+    const handlecash=()=> {     //used the program from my js task vending machine
       if(cartItems.length!=0){
      let a = confirm("Confirm Payment");
      if(!a==true){alert("Payment cancelled");return 0;}
@@ -13,38 +13,24 @@ function Cart() {
      return 0;
  }
 
-// function coupcode() {
-//     let coupcode = 987;
-//     if (incoup == coupcode) {
-//         alert("Coupen code applied");
-//         mycart.total -= mycart.total / 100 * 10;
-//         document.getElementById('totals').innerHTML = "TOTAL AMOUNT: ₹" + mycart.total;
-//     }
-//     else if(incoup<100||incoup>999){
-//         alert("Incorrect Coupen code\n Code should contain only 3 digits");
-//     }
-//     else if(incoup!=coupcode&&incoup<1000||incoup>99){
-//         alert("Incorrect Coupen code");
-//     }
-// }
+ const handlegpay=()=> {    //used the program from my js task vending machine
+     if(cartItems.length!=0){
+         let password = 123456;
+         let passin = prompt("Enter you 6 digit pin");
+         if (passin == password) {
+             alert("Transation of rs. " + total + " has been completed Successfully!");
+             afterpay();
+         }
+         else if(passin!=password){alert("Incorrect pin!");}
+         else if(passin==NaN){
+             alert("UPI pin should contain only numbers of 6 Digits\nCharecters are not allowed");
+         }
+         else if(passin<100000||passin>999999){alert("The pin must contain only 6 digits.")}
+     }
+     else{alert("Please add products to the cart to buy");}
+ }
 
-// function payment() {
-//     if(mycart.total!=0){
-//         let password = 123456;
-//         let passin = prompt("Enter you 6 digit pin");
-//         if (passin == password) {
-//             alert("Transation of rs. " + mycart.total + " has been completed Successfully!");
-//             afterpay();
-//         }
-//         else if(passin!=password){alert("Incorrect pin!");}
-//         else if(passin==NaN){
-//             alert("UPI pin should contain only numbers of 6 Digits\nCharecters are not allowed");
-//         }
-//         else if(passin<100000||passin>999999){alert("The pin must contain only 6 digits.")}
-//     }
-//     else{alert("Please add products to the cart to buy");}
-// }
- const handlegpay=()=>{
+ const handleupi=()=>{        //used the program from my js task vending machine
          if(cartItems.length!=0){
          let inupi=prompt("Enter your upi ID");
          if (!inupi){
@@ -53,12 +39,12 @@ function Cart() {
                  upi();
              } 
          }
-     if(inupi.toString().includes("@")){alert("Payment request sent successfully")}
+     if(inupi.toString().includes("@")){alert("Payment request sent successfully");afterpay();}
      else if(!inupi.toString().includes("@")){alert("Invalid UPI ID")}
      }
      else{alert("Please add products to the cart to buy");} 
  }
-function afterpay(){
+function afterpay(){  //used the program from my js task vending machine
   cartItems=[];
 
   localStorage.setItem("cart", JSON.stringify(cartItems)); 
@@ -66,7 +52,7 @@ function afterpay(){
     return(window.location.reload());
 }
 
-  //////////////////////////////////////////
+  ////////////////////////////////////////// end of payment function
   const productdata = Productdata.product;
   const saved = localStorage.getItem("cart");
   var savedcart = saved ? JSON.parse(saved) : [];
@@ -133,7 +119,8 @@ if (savedcart.length!=0){
      <section id="payment">
         <h1>CHOOSE A PAYMENT METHOD:</h1>
         <button class="but" onClick={handlecash}>Cash</button>
-        <button class="but" onClick={handlegpay}>Cash</button>
+        <button class="but" onClick={handlegpay}>Gpay</button>
+        <button class="but" onClick={handleupi}>UPI</button>
     </section> 
     </>
   );

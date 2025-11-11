@@ -22,3 +22,15 @@ table img{
 td{
     border-top:2px dashed black;
 }
+button{
+    margin:10px;
+    border-radius: 15px;
+    height:30px;
+    width:100px;
+    background-color: rgb(14, 230, 158);
+    transition: 0.3s;
+}
+button:hover{
+    transform:scale(1.1);
+    box-shadow: 2px 1px 3px 1px;
+}

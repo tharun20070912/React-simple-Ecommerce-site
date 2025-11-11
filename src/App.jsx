@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navi from './componenets/navigationbar/Navi';
 import Home from './pages/home/Home';
-import Cart from './pages/cart/Cart';   // make sure this exists!
+import Cart from './pages/cart/Cart';   
 
 function App() {
   return (
