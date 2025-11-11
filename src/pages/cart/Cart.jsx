@@ -3,14 +3,15 @@ import Productdata from '../../assets/jsondata/Productdata.json';
 
 function Cart() {
 
-//   function cash() {
-
-//     let a = confirm("Confirm Payment");
-//     if(!a==true){alert("Payment cancelled")}
-//     alert("payment successful");
-//     afterpay();
-
-// }
+    const handlecash=()=> {
+      if(cartItems.length!=0){
+     let a = confirm("Confirm Payment");
+     if(!a==true){alert("Payment cancelled");return 0;}
+     alert("payment successful");
+     afterpay();
+      }else{alert("Please add products to the cart to buy");} 
+     return 0;
+ }
 
 // function coupcode() {
 //     let coupcode = 987;
@@ -43,27 +44,33 @@ function Cart() {
 //     }
 //     else{alert("Please add products to the cart to buy");}
 // }
-// function upi(){
-//         if(mycart.total!=0){
-//         let inupi=prompt("Enter your upi ID");
-//         if (!inupi){
-//             let conf=confirm("Please enter an UPI ID to continue transation\n press cancel for payment cancellation")
-//             if(conf==true){
-//                 upi();
-//             } 
-//         }
-//     if(inupi.toString().includes("@")){alert("Payment request sent successfully")}
-//     else if(!inupi.toString().includes("@")){alert("Invalid UPI ID")}
-//     }
-//     else{alert("Please add products to the cart to buy");} 
-// }
+ const handlegpay=()=>{
+         if(cartItems.length!=0){
+         let inupi=prompt("Enter your upi ID");
+         if (!inupi){
+             let conf=confirm("Please enter an UPI ID to continue transation\n press cancel for payment cancellation")
+             if(conf==true){
+                 upi();
+             } 
+         }
+     if(inupi.toString().includes("@")){alert("Payment request sent successfully")}
+     else if(!inupi.toString().includes("@")){alert("Invalid UPI ID")}
+     }
+     else{alert("Please add products to the cart to buy");} 
+ }
+function afterpay(){
+  cartItems=[];
 
+  localStorage.setItem("cart", JSON.stringify(cartItems)); 
+  alert("Thanks for purchasing in EZ_CART ;)")
+    return(window.location.reload());
+}
 
   //////////////////////////////////////////
   const productdata = Productdata.product;
   const saved = localStorage.getItem("cart");
-  const savedcart = saved ? JSON.parse(saved) : [];
-  const cartItems = [];
+  var savedcart = saved ? JSON.parse(saved) : [];
+  var cartItems = [];
 if (savedcart.length!=0){
   for (let i = 0; i < savedcart.length; i++) {
     const temp = Number(savedcart[i][0]) - 1;
@@ -123,16 +130,11 @@ if (savedcart.length!=0){
         </table>
       )}
     </section>
-    {/* <section id="payment">
-         
-            <label><h1>ENTER COUPEN CODE:</h1><p style="margin-top:-50px;margin-left: 330px;">If any</p><input style="margin-top: 15px;" type="number" id="coup"></input></label>
-        <button class="but" onClick="coupcode()">Apply</button>
+     <section id="payment">
         <h1>CHOOSE A PAYMENT METHOD:</h1>
-        <button class="but" onClick="cash()">Cash</button>
-        <button class="but" onClick="payment()">G-pay</button>
-        <button class="but" onClick="upi()">UPI</button>
-        
-    </section> */}
+        <button class="but" onClick={handlecash}>Cash</button>
+        <button class="but" onClick={handlegpay}>Cash</button>
+    </section> 
     </>
   );
 }
