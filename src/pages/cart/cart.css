@@ -22,7 +22,7 @@ table img{
 td{
     border-top:2px dashed black;
 }
-button{
+.mybutton{
     margin:10px;
     border-radius: 15px;
     height:30px;
@@ -30,7 +30,7 @@ button{
     background-color: rgb(14, 230, 158);
     transition: 0.3s;
 }
-button:hover{
+.mybutton:hover{
     transform:scale(1.1);
     box-shadow: 2px 1px 3px 1px;
 }

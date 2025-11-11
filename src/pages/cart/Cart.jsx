@@ -118,9 +118,9 @@ if (savedcart.length!=0){
     </section>
      <section id="payment">
         <h1>CHOOSE A PAYMENT METHOD:</h1>
-        <button class="but" onClick={handlecash}>Cash</button>
-        <button class="but" onClick={handlegpay}>Gpay</button>
-        <button class="but" onClick={handleupi}>UPI</button>
+        <button className="mybutton" onClick={handlecash}>Cash</button>
+        <button className="mybutton" onClick={handlegpay}>Gpay</button>
+        <button className="mybutton" onClick={handleupi}>UPI</button>
     </section> 
     </>
   );
