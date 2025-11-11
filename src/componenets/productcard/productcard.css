@@ -1,0 +1,36 @@
+.prdCrdframe{
+    width: 250px;
+    height: 350px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.267);
+    border-radius: 10px;
+    margin: 15px;
+    display: inline-block;
+    padding:10px;
+    background-color: rgb(245, 248, 206);
+}
+.prdCrdframe:hover{
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.467);
+    transition: 0.5s;
+}
+img{
+    width: 80%;
+    height: 60%;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 23px;
+}
+img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.prdinfo{
+    text-align: center;
+    margin-top: 10px;
+}
+.prdCrdimage{
+    width: 80%;
+    height: 60%;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 23px;
+}

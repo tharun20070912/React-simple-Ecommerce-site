@@ -1,0 +1,59 @@
+import React, { useState,useEffect } from 'react'
+import Cart from '../assets/jsondata/cart.json'
+import Product from '../assets/jsondata/Productdata.json'
+
+
+function Addtocart(props) {
+  var[prdcount,setcount]=useState(props.inCart);
+  var remaining=props.stock-prdcount;
+  //let Cartdata=Cart.cart;
+  //let Productdata=Product;
+//
+  //useEffect(()=>{
+  //    for(let i=0;i<Cartdata.length;i++){
+  //      if(props.key==Cartdata[i].id){
+  //        Cartdata[i].inCart=prdcount;
+  //        Cart=Cartdata;
+  //      }
+  //      else {
+  //        Cartdata.push(Productdata[props.key-1]);
+  //        Cartdata[Cartdata.length-1].inCart=prdcount;
+  //        Cart=Cartdata;
+  //      }
+  //    }
+  //},prdcount);
+
+  function Incre(){
+    setcount(prdcount < props.stock ? prdcount + 1 : prdcount);
+        props.cartadd(props.id,prdcount+1);
+  }
+  function decre(){
+    setcount(prdcount > 0 ? prdcount - 1 : prdcount);
+        props.cartremove(props.id,prdcount-1);
+  }
+
+  return (
+
+    <div>
+      <h4>Remaining:{remaining} <span style={{fontSize:16,marginLeft:"20px"}}> Rs:{props.cost} </span></h4>
+
+    <button onClick={() => {
+        decre();
+       }}
+         style={{backgroundColor:"transparent",border:"none",cursor:"pointer",marginBlockEnd:"10px"}}>
+        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#1f1f1f"><path d="M360-640v-80h240v80H360ZM280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM40-800v-80h131l170 360h280l156-280h91L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68.5-39t-1.5-79l54-98-144-304H40Z"/></svg>
+    </button>
+
+    <h3 style={{display:"inline-block",fontFamily:"monospace",marginInline:"10px",fontSize:"25px",margin:"0px"}}>{prdcount}</h3>
+
+    <button  onClick={() => {
+         Incre();
+      }}  
+      style={{backgroundColor:"transparent",border:"none",cursor:"pointer",marginBlockEnd:"10px"}}>
+        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#1f1f1f"><path d="M440-600v-120H320v-80h120v-120h80v120h120v80H520v120h-80ZM280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM40-800v-80h131l170 360h280l156-280h91L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68.5-39t-1.5-79l54-98-144-304H40Z"/></svg>
+    </button>
+    </div>
+  )
+}
+
+export default Addtocart

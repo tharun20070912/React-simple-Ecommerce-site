@@ -1,0 +1,20 @@
+#searchbarcss input{
+    height:30px;
+    width:400px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+#searchbarcss label{
+    font-size: 20px;
+}
+#searchbarcss{
+    margin-left: 0px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    height: fit-content;
+}
+#searchbarcss h1{
+    display: inline-block;
+    margin-right:800px;
+    margin-left: 25px;
+}

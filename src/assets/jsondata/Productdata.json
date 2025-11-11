@@ -1,0 +1,707 @@
+{
+  "product": [
+    {
+      "inCart": 0,"id": "1",
+      "name": "Chocolates",
+      "price": 10,
+      "stock": 100,
+    "imgUrl": "src/assets/images/chocolates.png"
+    },
+    {
+      "inCart": 0,"id": "2",
+      "name": "Chips",
+      "price": 10,
+      "stock": 50,
+      "imgUrl": "src/assets/images/chips.png"
+    },
+    {
+      "inCart": 0,"id": "3",
+      "name": "Peanuts",
+      "price": 10,
+      "stock": 30,
+      "imgUrl": "src/assets/images/peanuts.png"
+    },
+    {
+      "inCart": 0,"id": "4",
+      "name": "Mixture",
+      "price": 20,
+      "stock": 30,
+      "imgUrl": "src/assets/images/mixture.png"
+    },
+    {
+      "inCart": 0,"id": "5",
+      "name": "Mazza",
+      "price": 10,
+      "stock": 40,
+      "imgUrl": "src/assets/images/mazza.png"
+    },
+    {
+      "inCart": 0,"id": "6",
+      "name": "Pepsi",
+      "price": 40,
+      "stock": 20,
+      "imgUrl": "src/assets/images/pepsi.png"
+    },
+    {
+      "inCart": 0,"id": "7",
+      "name": "Coco-cola",
+      "price": 40,
+      "stock": 50,
+      "imgUrl": "src/assets/images/coco-cola.png"
+    },
+    {
+      "inCart": 0,"id": "8",
+      "name": "Red bull",
+      "price": 70,
+      "stock": 60,
+      "imgUrl": "src/assets/images/red-bull.png"
+    },
+    {
+      "inCart": 0,"id": "9",
+      "name": "Peanut butter",
+      "price": 100,
+      "stock": 50,
+      "imgUrl": "src/assets/images/peanut-butter.png"
+    },
+    {
+      "inCart": 0,"id": "10",
+      "name": "Nutella",
+      "price": 120,
+      "stock": 50,
+      "imgUrl": "src/assets/images/nutella.png"
+    },
+    {
+      "inCart": 0,"id": "11",
+      "name": "Cashews",
+      "price": 70,
+      "stock": 140,
+      "imgUrl": "src/assets/images/cashews.png"
+    },
+    {
+      "inCart": 0,"id": "12",
+      "name": "Dates",
+      "price": 60,
+      "stock": 100,
+      "imgUrl": "src/assets/images/dates.png"
+    },
+    {
+      "inCart": 0,"id": "13",
+      "name": "Granola Bar",
+      "price": 120,
+      "stock": 100,
+      "imgUrl": "src/assets/images/granola-bar.png"
+    },
+    {
+      "inCart": 0,"id": "14",
+      "name": "Milkshake",
+      "price": 10,
+      "stock": 60,
+      "imgUrl": "src/assets/images/milkshake.png"
+    },
+    {
+      "inCart": 0,"id": "15",
+      "name": "Wafers",
+      "price": 20,
+      "stock": 100,
+      "imgUrl": "src/assets/images/wafers.png"
+    },
+    {
+      "inCart": 0,"id": "16",
+      "name": "Salted Potato Chips",
+      "price": 10,
+      "stock": 20,
+      "imgUrl": "src/assets/images/salted-potato-chips.png"
+    },
+    {
+      "inCart": 0,"id": "17",
+      "name": "Masala Potato Chips",
+      "price": 15,
+      "stock": 23,
+      "imgUrl": "src/assets/images/masala-potato-chips.png"
+    },
+    {
+      "inCart": 0,"id": "18",
+      "name": "Tortilla Chips",
+      "price": 20,
+      "stock": 26,
+      "imgUrl": "src/assets/images/tortilla-chips.png"
+    },
+    {
+      "inCart": 0,"id": "19",
+      "name": "Salted Popcorn",
+      "price": 25,
+      "stock": 29,
+      "imgUrl": "src/assets/images/salted-popcorn.png"
+    },
+    {
+      "inCart": 0,"id": "20",
+      "name": "Butter Popcorn",
+      "price": 30,
+      "stock": 32,
+      "imgUrl": "src/assets/images/butter-popcorn.png"
+    },
+    {
+      "inCart": 0,"id": "21",
+      "name": "Cheese Popcorn",
+      "price": 35,
+      "stock": 35,
+      "imgUrl": "src/assets/images/cheese-popcorn.png"
+    },
+    {
+      "inCart": 0,"id": "22",
+      "name": "Nacho Chips",
+      "price": 40,
+      "stock": 38,
+      "imgUrl": "src/assets/images/nacho-chips.png"
+    },
+    {
+      "inCart": 0,"id": "23",
+      "name": "Chilli Nachos",
+      "price": 45,
+      "stock": 41,
+      "imgUrl": "src/assets/images/chilli-nachos.png"
+    },
+    {
+      "inCart": 0,"id": "24",
+      "name": "Tomato Ketchup",
+      "price": 50,
+      "stock": 44,
+      "imgUrl": "src/assets/images/tomato-ketchup.png"
+    },
+    {
+      "inCart": 0,"id": "25",
+      "name": "Mayonnaise",
+      "price": 55,
+      "stock": 47,
+      "imgUrl": "src/assets/images/mayonnaise.png"
+    },
+    {
+      "inCart": 0,"id": "26",
+      "name": "Garlic Mayo",
+      "price": 60,
+      "stock": 50,
+      "imgUrl": "src/assets/images/garlic-mayo.png"
+    },
+    {
+      "inCart": 0,"id": "27",
+      "name": "Chilli Sauce",
+      "price": 65,
+      "stock": 53,
+      "imgUrl": "src/assets/images/chilli-sauce.png"
+    },
+    {
+      "inCart": 0,"id": "28",
+      "name": "Schezwan Sauce",
+      "price": 70,
+      "stock": 56,
+      "imgUrl": "src/assets/images/schezwan-sauce.png"
+    },
+    {
+      "inCart": 0,"id": "29",
+      "name": "Barbeque Sauce",
+      "price": 75,
+      "stock": 59,
+      "imgUrl": "src/assets/images/barbeque-sauce.png"
+    },
+    {
+      "inCart": 0,"id": "30",
+      "name": "Mustard Sauce",
+      "price": 80,
+      "stock": 62,
+      "imgUrl": "src/assets/images/mustard-sauce.png"
+    },
+    {
+      "inCart": 0,"id": "31",
+      "name": "Instant Noodles(masala)",
+      "price": 10,
+      "stock": 65,
+      "imgUrl": "src/assets/images/instant-noodles-masala.png"
+    },
+    {
+      "inCart": 0,"id": "32",
+      "name": "Instant Noodles(Corn)",
+      "price": 15,
+      "stock": 68,
+      "imgUrl": "src/assets/images/instant-noodles-chicken-flavor.png"
+    },
+    {
+      "inCart": 0,"id": "33",
+      "name": "Instant Cup Noodles",
+      "price": 20,
+      "stock": 71,
+      "imgUrl": "src/assets/images/instant-cup-noodles-veg.png"
+    },
+    {
+      "inCart": 0,"id": "34",
+      "name": "Macaroni Pasta",
+      "price": 25,
+      "stock": 74,
+      "imgUrl": "src/assets/images/macaroni-pasta.png"
+    },
+    {
+      "inCart": 0,"id": "35",
+      "name": "Penne Pasta",
+      "price": 30,
+      "stock": 77,
+      "imgUrl": "src/assets/images/penne-pasta.png"
+    },
+    {
+      "inCart": 0,"id": "36",
+      "name": "Fusilli Pasta",
+      "price": 35,
+      "stock": 80,
+      "imgUrl": "src/assets/images/fusilli-pasta.png"
+    },
+    {
+      "inCart": 0,"id": "37",
+      "name": "Whole Wheat Pasta",
+      "price": 40,
+      "stock": 83,
+      "imgUrl": "src/assets/images/whole-wheat-pasta.png"
+    },
+    {
+      "inCart": 0,"id": "38",
+      "name": "Tomato Pasta Sauce",
+      "price": 45,
+      "stock": 86,
+      "imgUrl": "src/assets/images/tomato-pasta-sauce.png"
+    },
+    {
+      "inCart": 0,"id": "39",
+      "name": "White Pasta Sauce",
+      "price": 50,
+      "stock": 89,
+      "imgUrl": "src/assets/images/white-pasta-sauce.png"
+    },
+    {
+      "inCart": 0,"id": "40",
+      "name": "Olive Pasta Sauce",
+      "price": 55,
+      "stock": 92,
+      "imgUrl": "src/assets/images/olive-pasta-sauce.png"
+    },
+    {
+      "inCart": 0,"id": "41",
+      "name": "Baked Beans",
+      "price": 60,
+      "stock": 95,
+      "imgUrl": "src/assets/images/baked-beans.png"
+    },
+    {
+      "inCart": 0,"id": "42",
+      "name": "Sweet Corn (Canned)",
+      "price": 65,
+      "stock": 98,
+      "imgUrl": "src/assets/images/sweet-corn-canned.png"
+    },
+    {
+      "inCart": 0,"id": "43",
+      "name": "Chickpeas (Canned)",
+      "price": 70,
+      "stock": 101,
+      "imgUrl": "src/assets/images/chickpeas-canned.png"
+    },
+    {
+      "inCart": 0,"id": "44",
+      "name": "Kidney Beans (Canned)",
+      "price": 75,
+      "stock": 104,
+      "imgUrl": "src/assets/images/kidney-beans-canned.png"
+    },
+    {
+      "inCart": 0,"id": "45",
+      "name": "Coconut Milk (Tetra)",
+      "price": 80,
+      "stock": 107,
+      "imgUrl": "src/assets/images/coconut-milk-tetra.png"
+    },
+    {
+      "inCart": 0,"id": "46",
+      "name": "Cereal(Corn)",
+      "price": 10,
+      "stock": 110,
+      "imgUrl": "src/assets/images/breakfast-cereal-corn-flakes.png"
+    },
+    {
+      "inCart": 0,"id": "47",
+      "name": "Cereal(Muesli)",
+      "price": 15,
+      "stock": 113,
+      "imgUrl": "src/assets/images/breakfast-cereal-muesli.png"
+    },
+    {
+      "inCart": 0,"id": "48",
+      "name": "Cereal(Choco)",
+      "price": 20,
+      "stock": 116,
+      "imgUrl": "src/assets/images/breakfast-cereal-choco-flakes.png"
+    },
+    {
+      "inCart": 0,"id": "49",
+      "name": "Oats (Instant)",
+      "price": 25,
+      "stock": 119,
+      "imgUrl": "src/assets/images/oats-instant.png"
+    },
+    {
+      "inCart": 0,"id": "50",
+      "name": "Oats (Rolled)",
+      "price": 30,
+      "stock": 122,
+      "imgUrl": "src/assets/images/oats-rolled.png"
+    },
+    {
+      "inCart": 0,"id": "51",
+      "name": "Trail Mix",
+      "price": 35,
+      "stock": 125,
+      "imgUrl": "src/assets/images/trail-mix.png"
+    },
+    {
+      "inCart": 0,"id": "52",
+      "name": "Raisins",
+      "price": 40,
+      "stock": 128,
+      "imgUrl": "src/assets/images/raisins.png"
+    },
+    {
+      "inCart": 0,"id": "53",
+      "name": "Almonds",
+      "price": 45,
+      "stock": 131,
+      "imgUrl": "src/assets/images/almonds.png"
+    },
+    {
+      "inCart": 0,"id": "54",
+      "name": "Pistachios",
+      "price": 50,
+      "stock": 134,
+      "imgUrl": "src/assets/images/pistachios.png"
+    },
+    {
+      "inCart": 0,"id": "55",
+      "name": "Walnuts",
+      "price": 55,
+      "stock": 137,
+      "imgUrl": "src/assets/images/walnuts.png"
+    },
+    {
+      "inCart": 0,"id": "56",
+      "name": "Hazelnuts",
+      "price": 60,
+      "stock": 140,
+      "imgUrl": "src/assets/images/hazelnuts.png"
+    },
+    {
+      "inCart": 0,"id": "57",
+      "name": "Sunflower Seeds",
+      "price": 65,
+      "stock": 143,
+      "imgUrl": "src/assets/images/sunflower-seeds.png"
+    },
+    {
+      "inCart": 0,"id": "58",
+      "name": "Pumpkin Seeds",
+      "price": 70,
+      "stock": 146,
+      "imgUrl": "src/assets/images/pumpkin-seeds.png"
+    },
+    {
+      "inCart": 0,"id": "59",
+      "name": "Flax Seeds",
+      "price": 75,
+      "stock": 149,
+      "imgUrl": "src/assets/images/flax-seeds.png"
+    },
+    {
+      "inCart": 0,"id": "60",
+      "name": "Chia Seeds",
+      "price": 80,
+      "stock": 152,
+      "imgUrl": "src/assets/images/chia-seeds.png"
+    },
+    {
+      "inCart": 0,"id": "61",
+      "name": "Salted Peanuts",
+      "price": 10,
+      "stock": 155,
+      "imgUrl": "src/assets/images/salted-peanuts.png"
+    },
+    {
+      "inCart": 0,"id": "62",
+      "name": "Honey Roasted Peanuts",
+      "price": 15,
+      "stock": 158,
+      "imgUrl": "src/assets/images/honey-roasted-peanuts.png"
+    },
+    {
+      "inCart": 0,"id": "63",
+      "name": "Protein Bar",
+      "price": 20,
+      "stock": 161,
+      "imgUrl": "src/assets/images/protein-bar-chocolate.png"
+    },
+    {
+      "inCart": 0,"id": "64",
+      "name": "Protein Bar(peanut)",
+      "price": 25,
+      "stock": 164,
+      "imgUrl": "src/assets/images/protein-bar-peanut.png"
+    },
+    {
+      "inCart": 0,"id": "65",
+      "name": "Granola Clusters",
+      "price": 30,
+      "stock": 167,
+      "imgUrl": "src/assets/images/granola-clusters.png"
+    },
+    {
+      "inCart": 0,"id": "66",
+      "name": "Digestive Biscuits",
+      "price": 35,
+      "stock": 170,
+      "imgUrl": "src/assets/images/digestive-biscuits.png"
+    },
+    {
+      "inCart": 0,"id": "67",
+      "name": "Marie Biscuits",
+      "price": 40,
+      "stock": 173,
+      "imgUrl": "src/assets/images/marie-biscuits.png"
+    },
+    {
+      "inCart": 0,"id": "68",
+      "name": "Butter Cookies",
+      "price": 45,
+      "stock": 176,
+      "imgUrl": "src/assets/images/butter-cookies.png"
+    },
+    {
+      "inCart": 0,"id": "69",
+      "name": "Choco Chip Cookies",
+      "price": 50,
+      "stock": 179,
+      "imgUrl": "src/assets/images/choco-chip-cookies.png"
+    },
+    {
+      "inCart": 0,"id": "70",
+      "name": "Oat Cookies",
+      "price": 55,
+      "stock": 182,
+      "imgUrl": "src/assets/images/oat-cookies.png"
+    },
+    {
+      "inCart": 0,"id": "71",
+      "name": "Wafers - Vanilla",
+      "price": 60,
+      "stock": 185,
+      "imgUrl": "src/assets/images/cream-wafers-vanilla.png"
+    },
+    {
+      "inCart": 0,"id": "72",
+      "name": "Wafers - Chocolate",
+      "price": 65,
+      "stock": 188,
+      "imgUrl": "src/assets/images/cream-wafers-chocolate.png"
+    },
+    {
+      "inCart": 0,"id": "73",
+      "name": "Rusk (Toast Biscuits)",
+      "price": 70,
+      "stock": 191,
+      "imgUrl": "src/assets/images/rusk-toast-biscuits.png"
+    },
+    {
+      "inCart": 0,"id": "74",
+      "name": "Khari Puff",
+      "price": 75,
+      "stock": 194,
+      "imgUrl": "src/assets/images/khari-puff.png"
+    },
+    {
+      "inCart": 0,"id": "75",
+      "name": "Curry Puff (Pack)",
+      "price": 80,
+      "stock": 197,
+      "imgUrl": "src/assets/images/curry-puff-pack.png"
+    },
+    {
+      "inCart": 0,"id": "76",
+      "name": "Salted Mixture",
+      "price": 10,
+      "stock": 200,
+      "imgUrl": "src/assets/images/salted-mixture.png"
+    },
+    {
+      "inCart": 0,"id": "77",
+      "name": "Masala Mixture",
+      "price": 15,
+      "stock": 203,
+      "imgUrl": "src/assets/images/masala-mixture.png"
+    },
+    {
+      "inCart": 0,"id": "78",
+      "name": "Banana Chips",
+      "price": 20,
+      "stock": 206,
+      "imgUrl": "src/assets/images/banana-chips.png"
+    },
+    {
+      "inCart": 0,"id": "79",
+      "name": "Jackfruit Chips",
+      "price": 25,
+      "stock": 209,
+      "imgUrl": "src/assets/images/jackfruit-chips.png"
+    },
+    {
+      "inCart": 0,"id": "80",
+      "name": "Rice Crackers",
+      "price": 30,
+      "stock": 212,
+      "imgUrl": "src/assets/images/rice-crackers.png"
+    },
+    {
+      "inCart": 0,"id": "81",
+      "name": "Prawn Crackers",
+      "price": 35,
+      "stock": 215,
+      "imgUrl": "src/assets/images/prawn-crackers.png"
+    },
+    {
+      "inCart": 0,"id": "82",
+      "name": "Papad (Roasted)",
+      "price": 40,
+      "stock": 218,
+      "imgUrl": "src/assets/images/papad-roasted.png"
+    },
+    {
+      "inCart": 0,"id": "83",
+      "name": "Papad (Fry)",
+      "price": 45,
+      "stock": 21,
+      "imgUrl": "src/assets/images/papad-fry.png"
+    },
+    {
+      "inCart": 0,"id": "84",
+      "name": "Ready-to-Eat Poha",
+      "price": 50,
+      "stock": 24,
+      "imgUrl": "src/assets/images/ready-to-eat-poha.png"
+    },
+    {
+      "inCart": 0,"id": "85",
+      "name": "Ready-to-Eat Upma",
+      "price": 55,
+      "stock": 27,
+      "imgUrl": "src/assets/images/ready-to-eat-upma.png"
+    },
+    {
+      "inCart": 0,"id": "86",
+      "name": "Ready Curry - Paneer",
+      "price": 60,
+      "stock": 30,
+      "imgUrl": "src/assets/images/ready-curry-paneer.png"
+    },
+    {
+      "inCart": 0,"id": "87",
+      "name": "Ready Curry - Dal",
+      "price": 65,
+      "stock": 33,
+      "imgUrl": "src/assets/images/ready-curry-dal-makhani.png"
+    },
+    {
+      "inCart": 0,"id": "88",
+      "name": "Ready Curry - Chana",
+      "price": 70,
+      "stock": 36,
+      "imgUrl": "src/assets/images/ready-curry-chana-masala.png"
+    },
+    {
+      "inCart": 0,"id": "89",
+      "name": "Instant Soup(Tomato)",
+      "price": 75,
+      "stock": 39,
+      "imgUrl": "src/assets/images/instant-soup-tomato.png"
+    },
+    {
+      "inCart": 0,"id": "90",
+      "name": "Instant Soup(corn)",
+      "price": 80,
+      "stock": 42,
+      "imgUrl": "src/assets/images/instant-soup-sweet-corn.png"
+    },
+    {
+      "inCart": 0,"id": "91",
+      "name": "Instant Soup - H & S",
+      "price": 10,
+      "stock": 45,
+      "imgUrl": "src/assets/images/instant-soup-hot-sour.png"
+    },
+    {
+      "inCart": 0,"id": "92",
+      "name": "Cup Soup - Veg",
+      "price": 15,
+      "stock": 48,
+      "imgUrl": "src/assets/images/cup-soup-veg.png"
+    },
+    {
+      "inCart": 0,"id": "93",
+      "name": "Energy Drink Can",
+      "price": 20,
+      "stock": 51,
+      "imgUrl": "src/assets/images/energy-drink-can.png"
+    },
+    {
+      "inCart": 0,"id": "94",
+      "name": "Electrolyte Drink",
+      "price": 25,
+      "stock": 54,
+      "imgUrl": "src/assets/images/electrolyte-drink.png"
+    },
+    {
+      "inCart": 0,"id": "95",
+      "name": "Iced Tea Lemon",
+      "price": 30,
+      "stock": 57,
+      "imgUrl": "src/assets/images/iced-tea-lemon.png"
+    },
+    {
+      "inCart": 0,"id": "96",
+      "name": "Iced Tea Peach",
+      "price": 35,
+      "stock": 60,
+      "imgUrl": "src/assets/images/iced-tea-peach.png"
+    },
+    {
+      "inCart": 0,"id": "97",
+      "name": "Cold Coffee",
+      "price": 40,
+      "stock": 63,
+      "imgUrl": "src/assets/images/cold-coffee-can.png"
+    },
+    {
+      "inCart": 0,"id": "98",
+      "name": "Chocolate Milk",
+      "price": 45,
+      "stock": 66,
+      "imgUrl": "src/assets/images/chocolate-milk-tetra.png"
+    },
+    {
+      "inCart": 0,"id": "99",
+      "name": "Mango Drink",
+      "price": 50,
+      "stock": 69,
+      "imgUrl": "src/assets/images/mango-drink-tetra.png"
+    },
+    {
+      "inCart": 0,"id": "100",
+      "name": "Orange Juice",
+      "price": 55,
+      "stock": 72,
+      "imgUrl": "src/assets/images/orange-juice-tetra.png"
+    }
+  ]
+}
+
+
+
