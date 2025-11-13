@@ -22,7 +22,7 @@ function Cart() {
              afterpay();
          }
          else if(passin!=password){alert("Incorrect pin!");}
-         else if(passin==NaN){
+         else if(passin===NaN){
              alert("UPI pin should contain only numbers of 6 Digits\nCharecters are not allowed");
          }
          else if(passin<100000||passin>999999){alert("The pin must contain only 6 digits.")}
